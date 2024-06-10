@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/9cb7309acd.js" crossorigin="anonymous"></script>
+    <title></title>
+    
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><i class="fa-brands fa-instagram"></i> Instagram</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavDropdown">
+        <ul class="navbar-nav align-items-center">
+          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Create a New Post</button>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Create a New Post</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="message-text" class="col-form-label">Caption:</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+          <div class="d-grid gap-2 d-md-block">
+            <button class="btn btn-secondary" type="button"><i class="fa-solid fa-camera"></i></button>
+            <button class="btn btn-secondary" type="button"><i class="fa-solid fa-location-dot"></i></button>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Send message</button>
+      </div>
+    </div>
+  </div>
+</div>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">
+              <i class="fa-solid fa-gear "></i>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item" href="#">Profile</a></li>
+              <li><a class="dropdown-item" href="#">Accessability</a></li>
+              <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#" style="color: red;">Log out</a></li>
+              
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true" ><i class="fa-solid fa-table-cells" style="color: grey;"></i></button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="true"><i class="fa-solid fa-square" style="color: grey;"></i></button>
+    </li>
+  </ul>
+  <div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+      <div class="container text-center justify-content-center">
+        <div class="row">
+          <div class="col-3 sm-2 mx-4 mt-5 py-2">
+            <img src="https://www.verywellmind.com/thmb/QgNHSjmX7obIUVXBAcAYZFRu2oU=/2122x0/filters:no_upscale():max_bytes(150000):strip_icc()/family-parents-grandparents-Morsa-Images-Taxi-56a906ad3df78cf772a2ef29.jpg" width="350px" height="300px">
+          </div>
+          <div class="col-3 sm-2 mx-4 mt-5 py-2">
+            <img src="https://i.pinimg.com/originals/76/20/27/762027871c1e7ba85671ec9dc86e027c.jpg" width="350px" height="300px" >
+          </div>
+          <div class="col-3 sm-2 mx-4 mt-5 py-2">
+            <img src="https://cdn-robertscentre.pressidium.com/wp-content/uploads/2016/07/777C179D-BC37-4828-9E5F-60FE5B25AA36-700x466.jpeg" width="350px" height="300px">
+          </div>
+          </div>
+          <div class="row">
+            <div class="col-3 mx-4 py-2 ">
+              <img src="https://media.macphun.com/img/uploads/customer/blog/1352/16843052446464755c3a0dd3.48322926.jpg?q=85&w=1680" width="350px" height="300px">
+            </div>
+            <div class="col-3 mx-4 py-2">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq-7UE6G9vDI_UQZG5aauBG3XMORkkjm9jiQ&s" width="350px" height="300px">
+            </div>
+            <div class="col-3 mx-4 py-2 px-3">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/2014_Modding_komputera_02.jpg" width="350px" height="300px">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-3 mx-4 py-2">
+              <img src="https://coffeeshopstartups.com/wp-content/uploads/2021/05/How-to-Make-Your-Cafe-Special-683x1024.jpg" width="350px" height="300px">
+            </div>
+            <div class="col-3 mx-4 py-2">
+              <img src="https://www.osceolasheriff.org/wp-content/uploads/2020/12/teenage-boy-drinking-caffeine-energy-drink-gaming-U75GERZ-1.jpg" width="350px" height="300px">
+            </div>
+            <div class="col-3 mx-3 py-2 px-4">
+              <img src="https://cdn.outsideonline.com/wp-content/uploads/2022/09/iPHONE14Pro_s.jpg" width="350px" height="300px">
+            </div>
+          </div>
+        
+      </div>
+    </div>
+    <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+      <div class="container-md">
+        <div class="card">
+          <div class="post-header">
+            <div class="text-end">06/10<div class="text-start"><h4>ItsLowkeyDavid</h4></div></div>
+            
+          </div>
+          <div class="post-image">
+            <img src="https://www.verywellmind.com/thmb/QgNHSjmX7obIUVXBAcAYZFRu2oU=/2122x0/filters:no_upscale():max_bytes(150000):strip_icc()/family-parents-grandparents-Morsa-Images-Taxi-56a906ad3df78cf772a2ef29.jpg" width="574px" height="400px">
+          </div>
+          <div class="post-footer">
+            <p><strong>700 Likes</strong></p>
+            <p><strong>Baby Bro</strong> Miss that day!!</p>
+            <p><strong>Mom</strong> We all look so cute</p>
+          </div>
+        </div>
+      </div>  
+      <div class="container-md my-4">
+        <div class="card">
+          <div class="post-header">
+            <div class="text-end">06/08<div class="text-start"><h4>ItsLowkeyDavid</h4></div></div>
+            
+          </div>
+          <div class="post-image">
+            <img src="https://i.pinimg.com/originals/76/20/27/762027871c1e7ba85671ec9dc86e027c.jpg" width="574px" height="400px">
+          </div>
+          <div class="post-footer">
+            <p><strong>30k Likes</strong></p>
+            <p><strong>Foxtrox-7</strong> That Dunk was crazy!!</p>
+            <p><strong>Dad</strong> Whoa!!!</p>
+          </div>
+        </div>
+      </div>
+      <div class="container-md my-4">
+        <div class="card">
+          <div class="post-header">
+            <div class="text-end">06/05<div class="text-start"><h4>ItsLowkeyDavid</h4></div></div>
+            
+          </div>
+          <div class="post-image">
+            <img src="https://cdn-robertscentre.pressidium.com/wp-content/uploads/2016/07/777C179D-BC37-4828-9E5F-60FE5B25AA36-700x466.jpeg" width="574px" height="400px">
+          </div>
+          <div class="post-footer">
+            <p><strong>3.3k Likes</strong></p>
+            <p><strong>ItsLowkeyDavid</strong> My new cars in GTA V</p>
+            <p><strong>X-box Friend</strong> Whoa!!!</p>
+          </div>
+        </div>
+      </div>
+      <div class="container-md my-4">
+        <div class="card">
+          <div class="post-header">
+            <div class="text-end">06/03<div class="text-start"><h4>ItsLowkeyDavid</h4></div></div>
+            
+          </div>
+          <div class="post-image">
+            <img src="https://media.macphun.com/img/uploads/customer/blog/1352/16843052446464755c3a0dd3.48322926.jpg?q=85&w=1680" width="574px" height="400px">
+          </div>
+          <div class="post-footer">
+            <p><strong>2k Likes</strong></p>
+            <p><strong>ItsLowkeyDavid</strong> Look at this amazing Beach View.</p>
+            <p><strong>Baby Bro</strong> Dude it was so nice there.</p>
+          </div>
+        </div>
+      </div>
+      <div class="container-md my-4">
+        <div class="card">
+          <div class="post-header">
+            <div class="text-end">06/01<div class="text-start"><h4>ItsLowkeyDavid</h4></div></div>
+            
+          </div>
+          <div class="post-image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq-7UE6G9vDI_UQZG5aauBG3XMORkkjm9jiQ&s" width="574px" height="400px">
+          </div>
+          <div class="post-footer">
+            <p><strong>1.5k Likes</strong></p>
+            <p><strong>ItsLowkeyDavid</strong> My Workplace View</p>
+            <p><strong>Boss</strong> You Better be doing your work.</p>
+          </div>
+        </div>
+      </div>
+      <div class="container-md my-4">
+        <div class="card">
+          <div class="post-header">
+            <div class="text-end">05/29<div class="text-start"><h4>ItsLowkeyDavid</h4></div></div>
+            
+          </div>
+          <div class="post-image">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/2014_Modding_komputera_02.jpg" width="574px" height="400px">
+          </div>
+          <div class="post-footer">
+            <p><strong>5k Likes</strong></p>
+            <p><strong>ItsLowkeyDavid</strong> Got a new PC working at my new programing job</p>
+            <p><strong>Dad</strong> Dang I wish I had a computer like that.</p>
+            <p><Strong>X-box Friend</Strong>NOW WHO AM I GOING TO PLAY GAMES WITH!!!</p>
+          </div>
+        </div>
+      </div>
+      <div class="container-md my-4">
+        <div class="card">
+          <div class="post-header">
+            <div class="text-end">05/27<div class="text-start"><h4>ItsLowkeyDavid</h4></div></div>
+            
+          </div>
+          <div class="post-image">
+            <img src="https://coffeeshopstartups.com/wp-content/uploads/2021/05/How-to-Make-Your-Cafe-Special-683x1024.jpg" width="574px" height="400px">
+          </div>
+          <div class="post-footer">
+            <p><strong>2k Likes</strong></p>
+            <p><strong>ItsLowkeyDavid</strong> Time to get some Coffee</p>
+            <p><strong>Boss</strong> Can you get me one I am tired and I have a lot of work I still need to do.</p>
+          </div>
+        </div>
+      </div>
+      <div class="container-md my-4">
+        <div class="card">
+          <div class="post-header">
+            <div class="text-end">05/24<div class="text-start"><h4>ItsLowkeyDavid</h4></div></div>
+            
+          </div>
+          <div class="post-image">
+            <img src="https://www.osceolasheriff.org/wp-content/uploads/2020/12/teenage-boy-drinking-caffeine-energy-drink-gaming-U75GERZ-1.jpg" width="574px" height="400px">
+          </div>
+          <div class="post-footer">
+            <p><strong>17k Likes</strong></p>
+            <p><strong>ItsLowkeyDavid</strong> I'm about to start my stream come join!!</p>
+            <p><strong>X-box Friend</strong> Can I get an Invite?</p>
+          </div>
+        </div>
+      </div>
+      <div class="container-md my-4">
+        <div class="card">
+          <div class="post-header">
+            <div class="text-end">05/24<div class="text-start"><h4>ItsLowkeyDavid</h4></div></div>
+            
+          </div>
+          <div class="post-image">
+            <img src="https://cdn.outsideonline.com/wp-content/uploads/2022/09/iPHONE14Pro_s.jpg" width="574px" height="400px">
+          </div>
+          <div class="post-footer">
+            <p><strong>378 Likes</strong></p>
+            <p><strong>ItsLowkeyDavid</strong> I got a new phone!</p>
+            <p><strong>Dad</strong> Your Welcome</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
